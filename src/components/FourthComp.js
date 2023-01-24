@@ -1,9 +1,9 @@
 import React from "react";
 import PO from "./PO";
 
-const ThirdComp = () => {
+const FourthComp = () => {
   return (
-    <div className="w-full min-h-[25vh] bg-[#1a1935] text-[#131f40] px-8 py-20 flex flex-col justify-center items-center md:px-96">
+    <div className="w-full min-h-[25vh] bg-[#1a1935] text-[#131f40] px-8 py-20 md:py-32 flex flex-col justify-center items-center md:px-96">
       <h1 className="text-4xl text-[#ffffff] font-semibold md:font-bold">
         <span className="text-[#8b75f2]">Protect</span> your organization and
         users
@@ -31,4 +31,4 @@ const ThirdComp = () => {
   );
 };
 
-export default ThirdComp;
+export default FourthComp;

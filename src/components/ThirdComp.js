@@ -4,9 +4,9 @@ import FCA from "../assets/thirdComp/FCA.png";
 import EU from "../assets/thirdComp/EU.png";
 import UN from "../assets/thirdComp/UN.png";
 
-const SecondComp = () => {
+const ThirdComp = () => {
   return (
-    <div className="w-full min-h-[25vh] bg-[#ffffff] text-[#131f40] px-8 py-20 flex flex-col justify-center items-center">
+    <div className="w-full min-h-[25vh] bg-[#ffffff] text-[#131f40] px-8 py-20 md:py-32 flex flex-col justify-center items-center">
       <h1 className="text-4xl font-semibold md:font-bold">
         Reliable, global data sources
       </h1>
@@ -25,4 +25,4 @@ const SecondComp = () => {
   );
 };
 
-export default SecondComp;
+export default ThirdComp;

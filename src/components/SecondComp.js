@@ -4,10 +4,10 @@ import rect from "../assets/secondComp/Rectangle 161.png";
 import riskImg from "../assets/secondComp/Group 9222.png";
 import screenFrame from "../assets/secondComp/Frame 9341.png";
 
-const FirstComp = () => {
+const SecondComp = () => {
   return (
-    <div className="w-full min-h-[25vh] bg-[#f8fafe] text-[#131f40] px-8 py-20 flex flex-col justify-center items-center md:flex-row">
-      <div className="flex flex-col">
+    <div className="w-full min-h-[25vh] bg-[#f8fafe] text-[#131f40] px-8 py-20 md:py-40 flex flex-col justify-center items-center md:flex-row">
+      <div className="flex flex-col md:ml-10">
         <h1 className="text-4xl font-semibold md:font-bold">
           Combine screening with transaction monitoring, customer risk
           assessment & more.
@@ -20,7 +20,7 @@ const FirstComp = () => {
             </p>
             <a
               href="/"
-              className="mb-8 font-semibold text-[#1169f9]"
+              className="mb-8 font-semibold text-[#1169f9] md:text-lg"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +34,7 @@ const FirstComp = () => {
             </p>
             <a
               href="/"
-              className="mb-8 font-semibold text-[#1169f9]"
+              className="mb-8 font-semibold text-[#1169f9] md:text-lg"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -51,10 +51,10 @@ const FirstComp = () => {
           alt="Screening and Sanctions"
         />
         <img src={riskImg} alt="Risk Scoring" />
-        <img src={rect} className="absolute" alt="Rectangle" />
+        <img src={rect} className="absolute md:relative" alt="Rectangle" />
       </div>
     </div>
   );
 };
 
-export default FirstComp;
+export default SecondComp;
