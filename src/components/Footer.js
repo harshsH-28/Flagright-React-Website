@@ -3,7 +3,7 @@ import frLogo from "../assets/logo_blue.png";
 
 const Footer = () => {
   return (
-    <div className="h-[57em] bg-[#ebf2ff] py-20 md:py-28 px-8 md:px-40 flex flex-col flex-wrap md:flex-nowrap md:flex-row md:justify-around md:h-[25em] md:w-full md:flex-1">
+    <div className="h-[57em] bg-[#ebf2ff] py-20 md:py-28 px-8 md:px-20 xl:px-40 flex flex-col flex-wrap md:flex-nowrap md:flex-row md:justify-around md:h-[25em] md:w-full md:flex-1">
       <div className="mb-10">
         <a href="/">
           <img src={frLogo} className="w-40 mb-4" alt="Flagright Logo" />

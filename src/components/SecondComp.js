@@ -51,7 +51,7 @@ const SecondComp = () => {
           alt="Screening and Sanctions"
         />
         <img src={riskImg} alt="Risk Scoring" />
-        <img src={rect} className="absolute md:relative" alt="Rectangle" />
+        <img src={rect} className="absolute" alt="Rectangle" />
       </div>
     </div>
   );

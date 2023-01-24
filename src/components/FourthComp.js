@@ -3,7 +3,7 @@ import PO from "./PO";
 
 const FourthComp = () => {
   return (
-    <div className="w-full min-h-[25vh] bg-[#1a1935] text-[#131f40] px-8 py-20 md:py-32 flex flex-col justify-center items-center md:px-96">
+    <div className="w-full min-h-[25vh] bg-[#1a1935] text-[#131f40] px-8 md:px-20 lg:px-40 xl:px-60 2xl:96  py-20 md:py-32 flex flex-col justify-center items-center">
       <h1 className="text-4xl text-[#ffffff] font-semibold md:font-bold">
         <span className="text-[#8b75f2]">Protect</span> your organization and
         users

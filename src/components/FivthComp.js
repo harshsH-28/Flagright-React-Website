@@ -4,7 +4,7 @@ import rect from "../assets/fivComp/Rectangle 179.png";
 
 const FivthComp = () => {
   return (
-    <div className="w-full min-h-[25vh] bg-[#ffffff] text-[#131f40] px-8 md:px-60 pt-20 flex flex-col justify-center items-center md:flex-row">
+    <div className="w-full min-h-[25vh] bg-[#ffffff] text-[#131f40] px-8 md:px-40 xl:px-60 2xl:96  pt-20 flex flex-col justify-center items-center md:flex-row">
       <div className="md:mr-40">
         <h1 className="text-4xl font-semibold md:font-bold">
           Streamline screening & case management

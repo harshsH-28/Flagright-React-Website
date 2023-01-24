@@ -3,7 +3,7 @@ import FD from "./FD";
 
 const SixthComp = () => {
   return (
-    <div className="w-full min-h-[25vh] bg-[#1a1935] text-[#131f40] px-8 md:px-96 py-20 md:py-32 flex flex-col justify-center items-center">
+    <div className="w-full min-h-[25vh] bg-[#1a1935] text-[#131f40] px-8 md:px-40 xl:px-52 2xl:96 py-20 md:py-32 flex flex-col justify-center items-center">
       <div>
         <h1 className="text-4xl text-center text-[#ffffff] mb-6 font-semibold md:font-bold">
           What makes Flagright{" "}

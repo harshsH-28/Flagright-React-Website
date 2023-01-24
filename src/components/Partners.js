@@ -12,45 +12,57 @@ import fb from "../assets/partners/floridablue.79657e29.svg";
 
 const Partners = () => {
   return (
-    <div className="w-full min-h-[25vh] bg-[#ffffff] text-[#131f40] px-8 py-20 flex flex-col justify-center items-center">
-      <div className="mb-20">
+    <div className="w-full min-h-[25vh] bg-[#ffffff] text-[#131f40] px-8 md:px-56 lg:px-40 xl:px-20 py-20 flex flex-col justify-center items-center">
+      <div className="mb-20 w-full flex flex-col flex-1">
         <h1 className="text-4xl mb-20 text-center text-[#131f40] font-bold">
           Our partners
         </h1>
-        <div className="flex items-center">
-          <div className="mr-20 md:flex md:justify-center md:items-baseline">
+        <div className="w-full flex justify-around items-center">
+          <div className="xl:flex xl:flex-1 xl:justify-around xl:items-baseline">
             <img
               src={ca}
-              className="mb-8 md:mr-20"
+              className="mb-8 md:w-[9em] lg:w-[9em] xl:w-[10em]"
               height="1em"
               width="190em"
               alt=""
             />
             <img
               src={trm}
-              className="mb-8 md:mr-20"
+              className="mb-8 md:w-[9em] lg:w-[9em] xl:w-[10em]"
               height="1em"
               width="190em"
               alt=""
             />
-            <img src={cj} height="1em" width="190em" alt="" />
+            <img
+              src={cj}
+              className="md:w-[9em] lg:w-[9em] xl:w-[10em]"
+              height="1em"
+              width="190em"
+              alt=""
+            />
           </div>
-          <div className="md:flex">
+          <div className="xl:flex xl:flex-1 xl:justify-around xl:items-baseline">
             <img
               src={coin}
-              className="mb-8 md:mr-20"
+              className="mb-8 md:w-[9em] lg:w-[9em] xl:w-[10em]"
               height="1em"
               width="190em"
               alt=""
             />
             <img
               src={ap}
-              className="mb-8 md:mr-20"
+              className="mb-8 md:w-[9em] lg:w-[9em] xl:w-[10em]"
               height="1em"
               width="190em"
               alt=""
             />
-            <img src={rapyd} height="1em" width="190em" alt="" />
+            <img
+              src={rapyd}
+              className="md:w-[9em] lg:w-[9em] xl:w-[10em]"
+              height="1em"
+              width="190em"
+              alt=""
+            />
           </div>
         </div>
       </div>
